@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelIndia</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link for fonr awesome 5  used  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- custom icon for Travel Website-->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/Aeroplane.png">
+
+</head>
+
+<body>
+
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a class="navbar-brand" href="/">
+            <div href="#" class="logo-image">
+                <img src="images/travelIndia.png" class="img-fluid"
+                    style="object-fit: contain; width: 200px; height: 30px">
+            </div>
+        </a>
+        <div class="nav">
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#book">Book</a>
+                <a href="#services">Services</a>
+                <a href="#packages">Packages</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#review">Review</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+    </header>
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Enter your Email">
+            <input type="password" class="box" placeholder="Enter your Password">
+            <input type="submit" value="Login Now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+            <p>Forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+    </div>
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>TravelIndia Welcomes You!</h3>
+            <p>Discover India with us, Adventure Awaits.</p>
+            <p>India is yours to Explore.</p>
+            <a href="https://www.tourmyindia.com/blog/" class="btnmain">Know more>>></a>
+        </div>
+
+        <div class="controls">
+            <span class="img-btn active" data-src="images/imagecon1.jpg"></span>
+            <span class="img-btn" data-src="images/imagecon2.jpg"></span>
+            <span class="img-btn" data-src="images/imagecon3.jpg"></span>
+            <span class="img-btn" data-src="images/imagecon4.jpg"></span>
+            <span class="img-btn" data-src="images/imagecon5.jpg"></span>
+        </div>
+
+        <div class="img-container">
+            <img src="images/imagecon1.jpg" id="img-slider">
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+    <br />
+    <!-- book section starts  -->
+
+    <section class="book" id="book">
+
+        <h1 class="heading"><span>BOOKNOW</span></h1>
+        <br />
+        <div class="row">
+
+            <div class="image">
+                <img src="images/book-img.png" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3><i class="fas fa-map-marker-alt"></i> Location </h3>
+                    <input type="text" placeholder="Destination Name">
+                </div>
+                <div class="inputBox">
+                    <h3><i class="fas fa-user-friends"></i> No of Persons </h3>
+                    <input type="number" placeholder="Number of Guests">
+                </div>
+                <div class="inputBox">
+                    <h3><i class="fas fa-phone-alt"></i> Phone No </i></h3>
+                    <input type="number" placeholder="Contact Number">
+                </div>
+                <div class="inputBox">
+                    <h3><i class="fas fa-plane-arrival"></i> Arrival Date </h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3><i class="fas fa-plane-departure"></i> Departure Date </h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="Book Now">
+            </form>
+        </div>
+    </section>
+
+    <!-- book section ends -->
+    <br />
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>SERVICES</span>
+        </h1>
+        <br />
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-wifi"></i>
+                <h3>Wifi</h3>
+                <p>Wifi Available while Travelling. it can be Differenciated on Means of Transport you are Travelling.
+                </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Affordable hotels</h3>
+                <p>Hotels are Posh and with all Facilities. If you want to stay in Nature Camp then you have to Specify
+                    while Booking.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Food and Beverages</h3>
+                <p>Food and Beverages are available on your seat itself just one click away.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Safety guide</h3>
+                <p>Covid Precautions are taken very seriously. We check Temperature every 8Hrs and taking care of your
+                    safety is our main Priority.</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-btc"></i>
+                <h3>Payment Method</h3>
+                <p>From Normal Indian Curreny including (PhonePe/Paytm/UPI) to Crypto curreny every currency in
+                    acceptable. </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-train"></i>
+                <h3>Fastest travel</h3>
+                <p>You can travel by whatsoever means you want (Bus/Train/Aeroplane). You will be Charged Accordingly.
+                </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Adventures</h3>
+                <p>We also have Adventure Camping Facility. Prefferd for People who want to spend their time in nature.
+                </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-smoking-ban"></i>
+                <h3>Smoking Ban</h3>
+                <p>Smoking is ban to keep our customers away from allergies and Bad Odur.</p>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+    <br />
+    <!-- packages section starts  -->
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading"><span>PACKAGES</span></h1>
+        <br />
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/p-1.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Goa </h3>
+                    <p>Goa is a state in western India with coastlines stretching along the Arabian Sea.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> ₹5,999 <span>₹8,000</span> </div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/p-6.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Jammu and Kashmir</h3>
+                    <p>Jammu and Kashmir consists of three regions: Jammu, the Kashmir valley and. Ladakh.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> ₹7,999 <span>₹12,000</span> </div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/p-3.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Agra </h3>
+                    <p>Agra is a city on the banks of the Yamuna river in the Indian state of Uttar Pradesh.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> ₹5,999 <span>₹10,000</span> </div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-4.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Bombay </h3>
+                    <p>Mumbai Harbour waterfront stands the iconic Gateway of India stone arch.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> ₹3,999 <span>₹7,000</span> </div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-5.jfif" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Amritsar </h3>
+                    <p>Amritsar is a city in the northwestern Indian state of Punjab.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> ₹3,499 <span>₹7,000</span> </div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-4.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Rajasthan</h3>
+                    <p>Gadisar lake at Jaisalmer Rajasthan at sunrise with ancient temples and archaeological ruins.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> ₹4,999 <span>₹9,000</span> </div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-2.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Hyderabad </h3>
+                    <p>Hyderabad is the capital of southern India's Telangana state.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> ₹6,999 <span>₹9,000</span> </div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- packages section ends -->
+    <br />
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading"><span>GALLERY</span></h1>
+        <br />
+        <div class="box-container">
+            <div class="box">
+                <img src="images/g-1.jpg" alt="">
+                <div class="content">
+                    <h3>The Holymen</h3>
+                    <p>The Hindu holy men at Pashupati Nath temple.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-2.jpg" alt="">
+                <div class="content">
+                    <h3>The Red Fort</h3>
+                    <p>The Red Fort or Lal Qila served as the main residence of the Mughal Emperors.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-3.jpg" alt="">
+                <div class="content">
+                    <h3>Harmandir Sahib</h3>
+                    <p>The Golden Temple is the preeminent spiritual site of Sikhism.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-4.jpg" alt="">
+                <div class="content">
+                    <h3>Gadisar lake</h3>
+                    <p>Lake at Jaisalmer Rajasthan at sunrise with ancient temples and archaeological ruins.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-5.jpg" alt="">
+                <div class="content">
+                    <h3>Lotus Temple</h3>
+                    <p>It is located in Delhi, India, is a Baháʼí House of Worship & Notable for its flowerlike shape.
+                    </p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-6.jpg" alt="">
+                <div class="content">
+                    <h3>Agra Fort</h3>
+                    <p>Agra Fort is a historical fort It was the main residence of the emperors of the Mughal Dynasty
+                        until 1638.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-7.jpg" alt="">
+                <div class="content">
+                    <h3>Taj Mahal</h3>
+                    <p>It is an ivory-white marble mausoleum on the right bank of the river Yamuna in the
+                        Indian city of Agra.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-8.jpg" alt="">
+                <div class="content">
+                    <h3>Shillong Camping</h3>
+                    <p>Shillong is a hill station in northeast India and capital of the state of Meghalaya.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-9.jpg" alt="">
+                <div class="content">
+                    <h3>Akshardham Temple</h3>
+                    <p>It is one of the largest temples in the Indian state of Gujarat.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/ganga.jpg" alt="">
+                <div class="content">
+                    <h3>Ganga View </h3>
+                    <p>It is one of the beautiful and peaceful place in Uttrakhand</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/ramJhula.jpg" alt="">
+                <div class="content">
+                    <h3>Ram Jhula</h3>
+                    <p>It is one of the beautiful and unique place to visit in rishikesh</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- gallery section ends -->
+    <br />
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>REVIEW</span>
+        </h1>
+        <br />
+
+        <div class="swiper-container review-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic1.jpg" alt="">
+                        <h3>Pankaj Tripathi</h3>
+                        <p> There was full safety and full covid precautions too. Vacation important nahi hai inke
+                            safety se santusht hue ye impotant hai.
+                        </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic2.jfif" alt="">
+                        <h3>Guddu Pandit</h3>
+                        <p>अ आ इ ई उ ऊ ए ऐ ओ औ अं अः ऋ ॠ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स
+                            ह क्ष त्र ज्ञ. Good Travel Ok. </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic3.jpg" alt="">
+                        <h3>Mia Talerico</h3>
+                        <p>My mother doesn't speak english very well. she said me to convey this message that it was our
+                            Best Trip ever in India.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic4.jpg" alt="">
+                        <h3>Baburao Ganpatrao Apte</h3>
+                        <p>Mast Maja aya 5 star le re baba tu.baki Mera Chashma Reh Gaya Courier kardena re Baba. Jai
+                            Maharashtra. </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review section ends -->
+    <br />
+    <!-- contact section starts  -->
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>CONTACT</span>
+        </h1>
+        <br />
+        <div class="row">
+
+            <div class="map" style="width: 40%">
+                <iframe width="380" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Be%20368%20A,%20Gali%20No%201,%20Near%20Lig%20Flats,%20Hari%20Nagar+(TravelIndia)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                    <a href="https://www.gps.ie/car-satnav-gps/">best sat navs</a>
+                </iframe>
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="Name">
+                    <input type="number" placeholder="Phone No">
+                </div>
+                <div class="inputBox">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="Send Message>>>">
+            </form>
+        </div>
+    </section>
+
+    <!-- contact section ends -->
+    <br />
+    <!-- footer section  -->
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>About Us</h3>
+                <p>We Believe in Safe & Happy Travel. Do make yourself feel like party of TravelIndia Family. Visit any
+                    destination at very ease and safety with us.
+                </p>
+            </div>
+            <div class="box">
+                <h3>Branch Locations</h3>
+                <a href="https://goo.gl/maps/u5vYStgRQU7G5Y9Q8">Jalandar</a>
+                <a href="https://goo.gl/maps/mY35jZTYQYhWmYGb6">Lucknow</a>
+                <a href="https://goo.gl/maps/dr3KkhhbK5wZakHz6">Bombay</a>
+                <a href="https://goo.gl/maps/xFnQZtzojUph5HKM6">Nagpur</a>
+                <a href="https://goo.gl/maps/ZHkr1Cx1uEdoS1zU6">Delhi</a>
+                <a href="https://maps.app.goo.gl/wB7u6NR2NQbJMgcY9">Agra</a>
+            </div>
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#home">Home</a>
+                <a href="#book">Book</a>
+                <a href="#services">Services</a>
+                <a href="#packages">Packages</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#review">Review</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="box">
+                <h3>Contact us</h3>
+                <p><i class="fas fa-phone-alt"></i> +91 8979695912</i></p>
+                <p><i class="fas fa-envelope"></i> Travelindia@agency.com</i></p>
+                <p><i class="fas fa-home"></i> 368 A, Gali No 1, Near Lig Flats, Hari Nagar</i></p>
+            </div>
+
+            <div class="box">
+                <h3>Follow us</h3>
+                <a href="https://www.facebook.com/groups/Travel.ind"><i class="fab fa-facebook-square"></i> Facebook</a>
+                <a href="https://instagram.com/india_travel_tourism?igshid=OGQ5ZDc2ODk2ZA=="><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://twitter.com/travelindiasafe"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://www.linkedin.com/in/varsha-goyal-9b1079214"><i class="fab fa-linkedin"></i> Linkedin</a>
+                <a href="https://github.com/varshagoyal045"><i class="fab fa-github"></i> Github</a>
+                <a href="https://github.com/varshagoyal045"><i class="fas fa-code-branch"></i> Repository</a>
+                <a href=""></a>
+            </div>
+        </div>
+        <!-- <h1 class="credit"> Created by <span></span> | &copy; All rights reserved! by TravelIndia </h1> -->
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- javascript file  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
